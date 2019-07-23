@@ -24,12 +24,12 @@ class LivePush {
     return await _channel.invokeMethod('pushStop');
   }
 
-  ///停止
+  ///结束
   Future<bool> onPushEnd() async {
     return await _channel.invokeMethod('pushEnd');
   }
 
-  ///停止
+  ///暂停或者播放
   Future onPlayOrPause() async {
     return await _channel.invokeMethod('onPlayOrPause');
   }

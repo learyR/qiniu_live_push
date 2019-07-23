@@ -1,8 +1,8 @@
 name: live_push
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: leary
+homepage: https://github.com/learyR/qiniu_live_push.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

@@ -35,7 +35,6 @@ class _MyAppState extends State<MyApp> {
 
   _fps() {
     livePush.fpsResponse.listen((text) {
-      print('leary_text' + text);
       setState(() {
         fps = text;
       });
