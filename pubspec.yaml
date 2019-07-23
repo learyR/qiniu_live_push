@@ -1,7 +1,7 @@
 name: live_push
-description: A new flutter plugin project.
-version: 0.0.1
-author: leary
+description: A new flutter plugin project for qiniu live push.
+version: 0.0.2
+author: leary<leary9527@gmail.com>
 homepage: https://github.com/learyR/qiniu_live_push.git
 
 environment:

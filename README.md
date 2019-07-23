@@ -22,6 +22,7 @@
           <uses-feature android:name="android.hardware.camera.autofocus" />
           <uses-feature android:glEsVersion="0x00020000" android:required="true" />
           <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  * 高版本Android需要动态权限申请
   * 在需要使用到推流的地方导入 ` import 'package:live_push/live_push.dart';` 包
   *  方法说明
 
@@ -43,5 +44,8 @@
                  fps = text;
                });
              });
+
+* IOS
+   * 开发中
 
 ### 个人开发使用，插件只实现了音频推流
